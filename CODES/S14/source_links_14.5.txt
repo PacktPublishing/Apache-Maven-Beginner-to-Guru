@@ -1,0 +1,2 @@
+starting source: https://github.com/springframeworkguru/mb2g-testing
+ending source: https://github.com/springframeworkguru/mb2g-testing/tree/nexus-snap

@@ -1,0 +1,2 @@
+starting source: https://github.com/springframeworkguru/mb2g-spring-boot/tree/git-info
+ending source: https://github.com/springframeworkguru/mb2g-spring-boot/tree/mm-spring-boot

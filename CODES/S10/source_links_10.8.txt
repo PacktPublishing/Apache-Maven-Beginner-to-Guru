@@ -1,0 +1,2 @@
+starting source: https://github.com/springframeworkguru/mb2g-mm-maven/tree/web-api
+ending source: https://github.com/springframeworkguru/mb2g-mm-maven/tree/web-app

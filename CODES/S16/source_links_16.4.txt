@@ -1,0 +1,2 @@
+starting source: https://github.com/springframeworkguru/mb2g-release-plugin/tree/initial-project
+ending source: https://github.com/springframeworkguru/mb2g-release-plugin/tree/release-plugin-config

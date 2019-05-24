@@ -1,0 +1,2 @@
+starting source: https://github.com/springframeworkguru/mb2g-mm-maven/tree/from-intellij
+ending source: 

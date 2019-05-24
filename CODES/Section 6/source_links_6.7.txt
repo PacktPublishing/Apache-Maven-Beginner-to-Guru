@@ -1,0 +1,2 @@
+starting source: https://github.com/springframeworkguru/helloworld/tree/pojotest
+ending source: https://github.com/springframeworkguru/helloworld/tree/jar

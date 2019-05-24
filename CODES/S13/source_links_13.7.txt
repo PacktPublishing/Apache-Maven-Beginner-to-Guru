@@ -1,0 +1,2 @@
+starting source: https://github.com/springframeworkguru/mb2g-testing/tree/packagecloud
+ending source: https://github.com/springframeworkguru/mb2g-testing/tree/packagecloud-release

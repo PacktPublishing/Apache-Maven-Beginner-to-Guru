@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <servers>
+        <server>
+            <id>maven.oracle.com</id>
+            <username>fly.yamaha@gmail.com</username>
+            <password>{cujQSo50cTYHfvuBvshHmP6OJf1xQWA+NG0dg0NJ6eE=}</password>
+            <configuration>
+                <basicAuthScope>
+                    <host>ANY</host>
+                    <port>ANY</port>
+                    <realm>OAM 11g</realm>
+                </basicAuthScope>
+                <httpConfiguration>
+                    <all>
+                        <params>
+                            <property>
+                                <name>http.protocol.allow-circular-redirects</name>
+                                <value>%b,true</value>
+                            </property>
+                        </params>
+                    </all>
+                </httpConfiguration>
+            </configuration>
+        </server>
+        <server>
+            <id>packagecloud.release</id>
+            <password>2c098e597a0cea758d14dbf374cfcac035be478d2b5dd2d5</password>
+        </server>
+        <server>
+            <id>packagecloud.snapshot</id>
+            <password>2c098e597a0cea758d14dbf374cfcac035be478d2b5dd2d5</password>
+        </server>
+        <server>
+            <id>nexus-snapshot</id>
+            <username>admin</username>
+            <password>admin123</password>
+        </server>
+        <server>
+            <id>nexus-release</id>
+            <username>admin</username>
+            <password>admin123</password>
+        </server>
+    </servers>
+
+    <mirrors>
+        <mirror>
+            <id>central</id>
+            <name>central</name>
+            <url>http://localhost:8081/repository/nexus-group/</url>
+            <mirrorOf>*</mirrorOf>
+        </mirror>
+    </mirrors>
+
+    <profiles>
+        <profile>
+            <id>jboss</id>
+            <repositories>
+                <repository>
+                    <id>redhat-ga</id>
+                    <url>https://maven.repository.redhat.com/ga/</url>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>jboss</activeProfile>
+    </activeProfiles>
+</settings>
